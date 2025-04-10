@@ -1,0 +1,66 @@
+/* The beginning of every tag used in css like h1, h2, p, a, body, etc. Basically everything that is used in the main HTML file, every style change or change, it immediately implements those changes as default to the mentioned tags. As long as the changes are applicable and inside their curly brackets, it will be applied.*/
+body{background-color: #DCD7C9; 
+    margin: 0;
+}
+
+/* The background-color tag is used to change the background of the webpage because it falls under the body{} section and because the body section is like the background of the entire web page
+
+The margin tag is used to add or reduce margins/space in between elements.
+*/
+
+nav{margin-left: 5;}
+
+h1{
+    color: #DCD7C9;
+    text-align: center; 
+    font-size: 50;
+    font-family: Arial, Helvetica, sans-serif; 
+    background: #66785F;
+}
+
+h2{
+    color: #66785F; 
+    font-size: 25; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-left: 5;
+}
+
+p{
+    color: #4B5945; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5;
+}
+
+.greenify{
+    color:#4B5945 ; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.greyify{
+    color:#303030 ; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-align: center;
+}
+
+.greenlist{
+    color: #66785F; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{background: transparent; 
+    border: 0;
+    font-size: 20;}
+    
+button:hover{background-color:rgba(21, 166, 13, 0.496)}
+/*
+The color tag changes the color of the text depending on what color you set it as.
+
+The Font-Family tag changes the font of the texts of the web page depending on what you set it as. For example: Arial, Helvetica, sans-serif. 
+
+The Font-size tag changes the size of the font.
+
+The text-align tag changes where the alignment of the text will be. It can be left, right, or middle. 
+
+The lines that have a "." in the beginning, those are Classes. Classes can be seen just like the .greenlist line. Every line in the main HTML that uses a class or div in their section, they can use "class=".greenlist"" to apply the mentioned styles/design within the .greenlist class.
+
+*/

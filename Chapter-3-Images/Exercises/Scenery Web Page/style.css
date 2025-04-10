@@ -1,0 +1,18 @@
+body{
+    background-color: #FCE7C8;
+}
+
+p{
+    color: #443627; text-align: center;
+}
+
+img{
+    filter: contrast(110%) brightness(85%) grayscale(17%); width: 500; height: 300;
+}
+
+/* 
+The width is used to change the width/size of the image
+
+The height is used to change the height/size of the image
+
+*/

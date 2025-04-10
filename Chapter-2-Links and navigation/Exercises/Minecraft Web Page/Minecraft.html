@@ -1,0 +1,98 @@
+<!-- 
+Pick a television series, film or game and design a really simple one-page website (just text, no images).Your website should include:
+* An overview of the plot, key information, cast and/or creative team, characters and any reviews you can find. 
+* A nav bar at the top which allows the user to quickly navigate to sections further down the page (anchor Ids).
+* A link to the actual website of the film/game etc. which opens in a new tab when clicked. 
+* Use of an external CSS file to style elements creatively (avoid inline styling and use classes instead).
+* At least two classes. 
+* One link styled as a button.
+
+### Multi-page website (Bonus - Optional)
+
+Using the one-page website you created, clone it into a new directory and split the information down into a simple multi-page website.
+
+* An individual page for: plot, key information, cast and/or creative team, characters and any reviews you can find. 
+* Put your new pages in a subdirectory called "pages".
+* Ensure that each page has a navigation bar.
+ -->
+
+<html lang="en">
+    <!--The <html lang="en"> is used to indicate that the language used in the html file is English hence its shortcut "en"-->
+<head>
+    <meta charset="UTF-8">
+    <!-- HTML tag that makes it possible to use emojis and other characters that aren't in the traditional ASCII character set on your webpage. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft</title>
+    <!--The title tag in the head section is used to change the name of tab of the open web site in your browser.-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--The link tag is used to link other files that use other languages like css, java script, favicon, etc. Just other items that can make our websites standout and give it a flare.-->
+</head>
+<body>
+    <h1>Minecraft</h1>
+    <!--<h1> also known as Heading 1. It is used for the title of a Web Page or a title for a specific section in your Web Page.
+    
+    Class="" is used for referring to classes in the css section of a webpage just like colors, desigm, background, fonts, etc. These classes can be seen in the css section as ".NameOfClass"-->
+    <nav>
+        <button>
+            <a class="greenify" href="Minecraft.html">Home</a>
+        </button>
+        <button>
+            <a class="greenify" href="#tos">Terms of Services</a>
+        </button>
+        <button>
+            <a class="greenify" href="Main_Bosses.html">Main Bosses</a>
+        </button>
+        <button>
+            <a class="greenify" href="Mobs.html">Mobs</a>
+        </button>
+        <button>
+            <a class="greenify" href="https://www.ign.com/articles/2011/11/24/minecraft-review">Review</a>
+        </button>
+        <button>
+        <a class="greenify" href="https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc?tabs=%7B%22details%22%3A0%7D" >Buy Minecraft</a>
+        </button>
+        <!--the button tag is used for creating buttons in html it is an interactive element and its design can be changed with a few lines of css code.
+        
+        The <a> tag stands for Anchor tag and is paired with an href also known as Hypertext Reference. This can be used to redirect the website to another Web Page whether it is your own or another developer. You can also use anchor 
+        -->
+    </nav>
+    <h2>What is Minecraft?</h2>
+        <!--h2 also known as Heading 2. It is similar to heading 1 but this time it is a subheading. It is used to make a sub section of the main heading or the main topic.-->
+        <p>Minecraft is a game that allows any player to express themselves in an open world, whether it is in single player or in multiplayer. Players can build, destroy, and even craft blocks or items. </p>
+        <!--The <p> tag also known as Paragraph tag. It is used for writing sentences and paragraphs to a Web Page.-->
+    <h2>
+        What platforms is Minecraft Available in?
+    </h2>
+        <p>
+        Minecraft is available on Apple devices, Linux, mobile devices, Windows, Chromebook, PlayStation, Nintendo Switch, and Xbox.
+        </p>
+    <h2>
+        <b>Who developed Minecraft?</b>
+    </h2>
+        <p>
+        The developers of Minecraft is Mojang Studios, Other Ocean Interactive, Xbox Game Studios, 4J Studios
+        </p>
+<section id="tos">
+<!--The section and ID tag is used to indicate that a certain section of the web page will be covered by the section tag, and its own unique ID when calling or reffering to.-->
+    <h2>
+        Minecraft Terms of Services
+    </h2>
+        <p>By using the site or game you must comply with the Game End User License Agreement (the “EULA”). You cannot use the game or site for commercial purposes without company permission.</p>
+
+        <p>You must understand the EULA. You must use up-to-date official software on a machine capable of running it. You pay for everything that allows you to connect to the internet.</p>
+    
+        <p>If you want to access authorized areas of the site, you must register for an account and provide at least an email address and date of birth and keep it up to date with accurate info. They use that info internally only. If you make a payment, then info such as your name, full address, credit card information, or other payment information is also required. They can terminate your account if any of this is incorrect.</p>
+    
+        <p>You must be 13 years or older to play. You must be a REAL person. If your children play the game, you should make them aware of this agreement. You are liable for anything that happens under your account.</p>
+    
+        <p>You are required to keep your login information secret. You should tell Riot if you suspect it to be compromised.</p>
+    
+        <p>You may not transfer your account regardless of gift or trade. If you do, your account may be suspended or terminated.</p>
+</section>
+<br>
+<footer>
+    <!--The footer tag is used to indicate that the section in between <footer></footer> is specifcally for the footer of the Web Page. Similar to the Heading tag and Section tag because they indicate that the content inside the tags are only for those sections or regions of the Web Page.-->
+    <p  class="greyify">Copyright &#169; 2025 Elijah</p>
+</footer>
+</body>
+</html>
