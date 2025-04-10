@@ -1,0 +1,80 @@
+<!-- 
+Create a simple petrol calculator. Your petrol calculator must include:
+
+* A field for the user the enter the cost of petrol per liter. This should have a default value of 1.72
+* A field for the user to enter the number of liters purchased. This should have a default value of 0
+* A button that when clicked calculates the total cost of the petrol purchased and displays the result to the screen
+* A p tag to display the total cost
+* Comments throughout every file.
+* Buttons should include hover effects, and fields should clearly "focus" when in use.
+* Clean and professional creative styling. 
+-->
+
+<html lang="en">
+  <!-- The <html lang="en"> is used to indicate that the language used in the html file is English hence its shortcut "en" -->
+<head>
+  <meta charset="UTF-8">
+  <!-- HTML tag that makes it possible to use emojis and other characters that aren't in the traditional ASCII character set on your webpage. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petrol Calculator</title>
+  <!-- The title tag in the head section is used to change the name of tab of the open web site in your browser. -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- The link tag is used to link other files that use other languages like css to add flare to our website. -->
+</head>
+
+<body>
+  
+  <h1>Petrol Calculator</h1>
+
+  <div class="space">
+    <!-- The div tag also known as division tag. It is used for making a certain part or section of a web page a division between other tags. It can be used to add specific designs or functionalities for that division/section of the web page.
+     
+    Class="" is used for referring to classes in the css section of a webpage just like colors, design, background, fonts, etc. These classes can be seen in the css section as ".NameOfClass"
+    -->
+    Price Per Liter: <input type="text" id="ppliter" value="1.72" min="1.72">
+    Liter: <input type="text" id="literinput" value="0" min="0">
+    <!-- The input tag is used to allow the user to enter any kind of input they would like in a website, whether it be number or text. In this case the user has to enter an integer.
+     
+    the value tag is used to set a default value for the slot or input.
+
+    the min tag also known as minimum tag. It is used to make sure the minimum integer that is entered is the assigned value to it.
+    -->
+  
+    <p id="output">Total Cost: $0.00</p>
+    <!-- The <p> tag also known as Paragraph tag. It is used for writing sentences and paragraphs to a Web Page.
+      
+    The ID tag is used to give an element their own ID-->
+
+    <button onclick="calculate()">Calculate The Price</button> 
+    <!-- button is used for creating buttons in html it is an interactive element and its design can be changed with a few lines of css code.
+     
+    the onclick is used to call a function when the button is clicked.
+    -->
+    <script>
+      function petrol(liter, literprice)
+      {
+      return liter * literprice;
+      }
+
+      function calculate()
+      {
+        let literprice = document.getElementById("ppliter").value;
+        let liter = document.getElementById("literinput").value;
+        let result = petrol(liter, literprice);
+        
+        if (literprice >= 1.72)document.getElementById("output").innerHTML ="Total Cost: $" + result.toFixed  (2);
+        if (literprice < 1.72) window.alert("Make sure the Price Per Liter is at least 1.72");
+
+      }
+    </script>
+    <!-- the script element is used to add or use javascript in your document.
+     
+    the function element is used to create a function in javascript wherein you can reuse this code or formula especially when calculating.
+
+    the let part of the function is a way to assign values to a variable.
+
+    the if statement statement is used to make conditional statements in javascript.
+    -->
+  </div>
+</body>
+</html>

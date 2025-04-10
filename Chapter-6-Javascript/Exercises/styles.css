@@ -1,0 +1,62 @@
+/* The beginning of every tag used in css like h1, body, *, etc. Basically, everything that is used in the main HTML file, every style change or change, it immediately implements those changes as default to the mentioned tags. As long as the changes are applicable and inside their curly brackets, it will be applied. */
+
+body{background: #F5EEDC;
+    margin: 0;
+}
+/*
+background-color is used to change the background color of the webpage
+
+margin is used to add or remove margin spaces in a webpage.
+*/
+
+h1{font-size: 50;
+    background-color:#27548A;
+    height: 70;
+    padding-top: 10;
+    color: #FFF8F8;
+}
+/* 
+Font-size is used to change the font size of the texts.
+
+height is used to change the height of the area that h1 is occupying.
+
+color is used to change the color of the text used in h1.
+
+padding-top is used to add padding on the top of h1.
+*/
+
+input{width: 80;
+    background-color: transparent;
+    border-color: #FFF8F8;
+    width: 90;
+}
+/* 
+width is used to change the width of the area that input is occupying.
+
+border color is used to change the color of the border in the input boxes
+*/
+
+.space{margin: 50;}
+
+/* Class="" is used for referring to classes in the css section of a webpage just like colors, desigm, background, fonts, etc. These classes can be seen in the css section as ".NameOfClass" */
+
+button{background-color: transparent; 
+    border-color: #FFF8F8
+}
+button:hover{background-color: aliceblue;}
+/* button:hover is used to change the design of the button when the user hovers over it with their cursor */
+
+
+*{font-family: sans-serif;
+    color: #27548A ;
+    text-align: center;
+    font-size: 25;
+}
+
+/* 
+the * is used to apply to ALL of the elements that have whatever applicable style or change there is inside the curly brackets 
+
+the text-align element is used to align the text wherever on the page, it can be left, right or center.
+
+the font-family elemet is used to change the font style of the text in a webpage.
+*/
