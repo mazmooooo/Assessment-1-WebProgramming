@@ -1,0 +1,34 @@
+body{background-color: #F6DED8; 
+    margin: 0;}
+
+h1{background-color: #F2B28C; 
+    color: #D2665A; 
+    text-align: center; 
+    font-size: 50; 
+    padding-bottom: 5; 
+    margin-bottom: 0;}
+
+h2{color: #D2665A; 
+    margin-left: 5;}
+
+p{margin-left: 5;}
+
+img{height: 250; 
+    margin-left: 5;
+    margin-bottom: 5;}
+
+/*
+Everything written in the css styles sheet will be implemented in the website which is Spaghetti_Sauce.html.
+
+Body, h1, and h2. Their styles will be changes as to what is inside the curly bracket. For the body it will change the background of it 
+
+The background-color tag is used to change the background of the webpage because it falls under the body{} section and because the body section is like the background of the entire web page
+
+The color tag is used to change the color of the text of the tag that it is used in.
+
+The margin tag is used to add or reduce margins/space in between elements.
+
+The font-size tag is used to change the size of the font of a text.
+
+The text-align tag is used to change the alignment of the text in a page, it can be either left, center or right.
+*/
