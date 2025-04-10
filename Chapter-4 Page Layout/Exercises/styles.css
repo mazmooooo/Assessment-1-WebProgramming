@@ -1,0 +1,108 @@
+body{margin: 0; }
+
+nav{background-color:#17072B;
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding-top: 2;
+}
+
+a{color: white;
+    text-decoration: none;
+    font-size: 30; 
+    margin: 8;
+    /* text-decoration is used to change the decoration style of the anchor link wherein this case it is set to none so it removes the underline of the texts inside the element */
+}
+
+h1{text-align: center;font-size: 45;}
+
+/* text-align is used to indicate where the texts should be aligned at */
+
+.leftcontent h2{font-size: 30;}
+
+/* the tags after the initial class for example .leftcontent h2. everything that has another element after the class, it is used to specify the changes within that class. In this case, the font size of h2 inside the leftcontent class, its value will be changed to 30. */
+
+.leftcontent{width: 63%; 
+    padding-left: 20; 
+    height: 60%; 
+    margin: 0; 
+    float: left;
+    font-size: 25;
+}
+
+.leftcontent img{height: 335; width: 940;}
+
+.rightcontent h2{font-size: 35; padding-left: 10;}
+
+.rightcontent{background-color:#172D66; 
+    width: 30%;  
+    height: 550; 
+    color: white; 
+    float: right;
+    margin-top: 10;
+    font-size: 25;
+    padding-left: 40;
+    padding-right: 2%;
+
+/* 
+
+background-color is used to change the background color, wherein this case its the right section of the page getting changed.
+
+width is used to change the width of the right content section, basically the amount of space it takes up in the website.
+
+height is used to change the height of the right content section, basically the amount of space it takes up in the website.
+
+color is used to change the color of the texts.
+
+float is used to place and coordinate where the items or block will be placed at, it can be left, right or even center.
+
+font-size is used to change the font size of the texts.
+
+margin-top is used to create the margin or space on the top part of the section.
+
+padding-left is used to create the padding or space on the left part of the section.
+
+padding-right is used to create the padding or space on the right part of the section.
+
+*/
+
+}
+
+.pics img {
+    width: 49%;
+    height: 200;
+}
+
+.foot{background-color: #8C15E9; 
+    display: flex; 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38%;
+}
+/* 
+
+margin-top is used to create a margin or space in between the content and the top part of the website.
+
+display: flex is used to change how the section will function, it adds flexibility on how it will be moulded and set as. It makes sure that the section or footer does not use inline by default anymore.
+
+The align-items and justify-content is used like points on a coordinate plane. They work with eachother to set a specific destination on where the items should be. it can be flex-start flex-end etc.
+
+ */
+.footp{color: white;
+    text-align: center;
+}
+
+button{background-color: transparent;
+    border: 0;
+}
+button:hover{background: #48057c;}
+/* the border tag is used to change the border of the content, whether it is a text or a background colored area. It will add or remove the border of it, in this case it is set to 0 so it will blend in to the background */
+
+*{font-family: arial;}
+
+/* the * is used to apply to ALL of the elements that have whatever applicable style or change there is inside the curly brackets wherein this case, all the fonts will be changed to arial */
+
+/* The beginning of every tag used in css like h1, h2, p, a, body, etc. Basically everything that is used in the main HTML file, every style change, it immediately implements those changes as default to the mentioned tags. As long as the changes are applicable and inside their curly brackets, it will be applied. */

@@ -1,0 +1,81 @@
+<!-- 
+Using the website reference image below, code this website (focussing on proper structural markup). Your work doesn't need to be exact in attempting to recreate the padding, margins etc., but you do need to recreate the layout of the page exactly, using the structural elements you've been taught. You must include:
+
+- Header;
+- Navigation menu;
+- The main "Welcome" content;
+- "Line Up" content, including two square images underneath the text;
+- Footer;
+- index.html and style.css files.
+-->
+
+<html lang="en">
+    <!-- The <html lang="en"> is used to indicate that the language used in the html file is English hence its shortcut "en" -->
+<head>
+    <meta charset="UTF-8">
+    <!-- HTML tag that makes it possible to use emojis and other characters that aren't in the traditional ASCII character set on your webpage. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digi Fest</title>
+    <!-- The title tag in the head section is used to change the name of tab of the open web site in your browser. -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- The link tag is used to link other files that use other languages like css, java script, favicon, etc. Just other items that can make our websites standout and give it a flare. -->
+</head>
+<body>
+    <nav>
+        <!-- Nav also known as Navigation. It is used for indicating that whatever section is in between <nav> </nav> is considered as a navigation area for the Web Page. -->
+        <h1><u>Digi Fest 2022</u></h1>
+        <!-- h1 also known as Heading 1. It is used for the title of a Web Page or a title for a specific section in your Web Page. -->
+        
+        <!-- The <u> tag also known as underline. It underlines the text inside this element. -->
+        <button>
+            <!-- button is used for creating buttons in html it is an interactive element and its design can be changed with a few lines of css code. -->
+            <a href="index.html">Home</a></button>
+            <!-- The <a> tag stands for Anchor tag and is paired with an href also known as Hypertext Reference. This can be used to redirect the website to another Web Page whether it is your own or another developer. -->
+        <button>
+            <a href="about.html">About</a></button>
+        <button>
+            <a href="contact.html">Contact</a></button>
+        <button>
+            <a href="contact.html">Contact</a></button>
+        <button>
+            <a href="tickets.html">Tickets</a></button>
+    </nav>
+    <div class="leftcontent">
+        <!-- The div tag also known as division tag. It is used for making a certain part or section of a web page a division between other tags. It can be used to add specific designs or functionalities for that division/section of the web page.
+         
+        Class="" is used for referring to classes in the css section of a webpage just like colors, desigm, background, fonts, etc. These classes can be seen in the css section as ".NameOfClass"
+        -->
+        <h2><u>Welcome</u></h2>
+        <!-- h2 also known as Heading 2. It is similar to heading 1 but this time it is a subheading. It is used to make a sub section of the main heading or the main topic. -->
+
+        <p>Digi Fest is a celebration of digital and technology in the city of Cardiff. This year, we are celebrating ‘collaboration’, so come and find out about the latest collaborations that are happening in this historic and innovative city. They promise an educational and inspirational packed programme for all.</p>
+        <!-- The <p> tag also known as Paragraph tag. It is used for writing sentences and paragraphs to a Web Page. -->
+
+        <img src="coding.avif" alt="coding image" title="Coding image">
+        <!-- The img tag also known as image tag. It is used to render images whether from the your local drive or uploaded from the internet, it will be shown when entered in the "src=""", src stands for source. 
+         
+        The alt tag also known as Alternative tag. It used to say something about what the image is if it does not render the image correctly when opening the web page.
+
+        The title tag is used for showing a message when hovering over the image that is rendered or uploaded in the website.
+        -->
+    </div>
+    <div class="rightcontent">
+        <h2><u>Line Up</u></h2>
+        <p>-Introduction To HTML and CSS</p>
+        <p>-Links and Images</p>
+        <p>-Page Layout</p>
+        <br>
+        <!-- The br tag also known as Break Space tag. It is used for breaking tags apart and also as a way to create space in your web page between tags/elements -->
+        <br>
+        <div class="pics">
+            <img src="motherboard.avif" alt="Motherboard Picture" title="Motherboard">
+            <img src="motherboardcircuit.png" alt="Motherboard Circuit Picture" title="Motherboard Circuit">
+        </div>
+    </div>
+    <footer class="foot">
+        <!-- The footer tag is used to indicate that the section in between <footer></footer> is specifcally for the footer of the Web Page. Similar to the Heading tag and Section tag because they indicate that the content inside the tags is only for those sections or regions of the Web Page. -->
+        <p class="footp">&copy; 2022 DigiFest Ltd.</p>
+        <!-- the &copy; is used to create the copyright symbol -->
+    </footer>
+</body>
+</html>
