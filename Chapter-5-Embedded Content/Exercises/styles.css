@@ -1,0 +1,33 @@
+/* The beginning of every tag used in css like h1, body, video. Basically, everything that is used in the main HTML file, every style change or change, it immediately implements those changes as default to the mentioned tags. As long as the changes are applicable and inside their curly brackets, it will be applied. */
+
+body{display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-image: url(bluecuratin.jpg);
+    background-repeat: repeat-y;
+}
+
+/* display: flex is used to change how the section will function, it adds flexibility on how it will be moulded and set as. It makes sure that the section or footer does not use inline by default anymore. 
+
+The align-items and justify-content is used like points on a coordinate plane. They work with eachother to set a specific destination on where the items should be. it can be flex-start flex-end etc.
+
+The margin tag is used to add a margin to a heading, paragraph, etc. in this case it is for the body so it ensures that there is no margin around it.
+*/
+
+video{height: 350;
+    width: 600;
+}
+/* 
+The height is used to change the height/size of the video
+
+The width is used to change the width/size of the video*/
+h1 {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+

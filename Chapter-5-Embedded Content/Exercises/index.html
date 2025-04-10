@@ -1,0 +1,36 @@
+<!-- 
+Embed a locally hosted video of your choice into a html document. The video must:
+
+* Loop;
+* Display a relevant poster image;
+* Be centred on the page horizontally and vertically. 
+-->
+
+<html lang="en">
+<!-- The <html lang="en"> is used to indicate that the language used in the html file is English hence its shortcut "en" -->
+<head>
+    <meta charset="UTF-8">
+    <!-- HTML tag that makes it possible to use emojis and other characters that aren't in the traditional ASCII character set on your webpage. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laufey</title>
+    <!-- The title tag in the head section is used to change the name of tab of the open web site in your browser. -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Laufey - Bewitched</h1>
+    <!-- h1 also known as Heading 1. It is used for the title of a Web Page or a title for a specific section in your Web Page. -->
+        <video controls loop poster="bewitchedposter.jpg">
+            <!-- the video tag is used to load or display a video to your website whether it is from your local files or a link from the internet.
+             
+            the autoplay tag is used to make the video autoplay once the website is loaded.
+
+            the loop tag is used to make the video loop once the video finishes.
+
+            the poster tag is used to make a poster or a thumbnail for a video.
+            -->
+            <source src="bewitched.mp4" type="video/mp4">
+            <!-- the source src tag is used to link or specify what viedo you want to display on your website -->
+        </video>
+</body>
+</html>
